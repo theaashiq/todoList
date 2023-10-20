@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Sign up</title>
+</head>
+<body style="background-color: #d9e6f5 ;">
+    <div class="container">
+        <section>
+            <div class="banner">
+               <h1 style="margin-left: 10px ;">Welcome to</h1>
+               <h2 style="margin-left: 10px ;">Daily Decree</h2>
+            </div>
+            <div class="sign-container" style="font-family: 'Open Sans', sans-serif; color: #4d4d4d">
+               <h1 style="margin-bottom: 2px; color: #0059b3">Sign Up</h1>
+               <p style="margin-bottom:20px; font-size: 14px; color: #4d4d4d">Create a account to access <span style="font-family: 'Exo 2', sans-serif; color: rgb(98,164,241);">daily decree</span></p>
+               <form action="" id='form'>
+                    <div class="form-container">
+                        <div class="input-group">
+                            <input type="text" id="firstname" placeholder="First Name">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="lastname" name="lastname" placeholder="Last Name">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="email" name="email" placeholder="Email">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-group">
+                            <select id="gender" placeholder="Gender">
+                                <option disabled selected value="">Gender</option>
+                                <option value="male">Male</option>
+                                <option value="female">Female</option>
+                                <option value="others">Others</option>
+                            </select>
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="text" id="phone-number" name="phone-name" placeholder="Phone Number">
+                            <div class="error"></div>
+                        </div>
+                        <div></div>
+                        <p style="margin:10px 0px 3px 2px">Create password</p>
+                        <div></div>
+                        <div class="input-group">
+                            <input type="password" id="password" name="password" placeholder="Password">
+                            <div class="error"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="cpassword" name="cpassword" placeholder="Confirm Password">
+                            <div class="error"></div>
+                        </div>
+                        
+                    </div>
+                    <input style="margin: 3px 6px" type="checkbox"><span style="font-size: 12px;">I've read and agree with <b>Terms of Services</b> and our <b>Privacy Policy</b></span><br>
+                    <center>
+                        <button type="submit">SIGN UP</button>
+                    </center>                
+                    </form>
+                <center>
+                    <p style="margin-bottom:10px">Already have an account? <a href="index.html">Sign In</a></p>
+                </center>
+            </div>
+            
+        </section>
+    </div>
+    <script src="signup.js"></script>
+</body>
+</html>

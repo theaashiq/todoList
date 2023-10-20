@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,600&family=Open+Sans&display=swap');
+
+.container{
+    height: 85vh;
+    display: grid;
+    place-items: center;
+}
+
+section h1{
+    color: #4d2c93;
+    font-family: 'Exo 2', sans-serif;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+section img{
+    width: 70px
+}
+
+.input-group{
+    margin: 20px 0px
+}
+
+.input-group input{
+    border:none;
+    border-bottom: 1px solid #62a4f1;
+    padding:10px 5px;
+    width: 220px;
+    font-size: 16px;
+    background-color:white;
+}
+
+.input-group input:focus{
+    background-color: white;
+    outline:none
+}
+
+button{
+    margin-top: 20px;
+    padding:8px;
+    width: 100%;
+    border:none;
+    color:white;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 10px;
+    background: rgb(98,164,241);
+    background: linear-gradient(114deg, rgba(98,164,241,1) 0%, rgba(127,75,238,1) 49%, rgba(155,114,242,1) 100%);
+}
+
+.addition{
+    width: 100%;
+    margin-top:30px;
+    font-size: 14px;
+    color:  #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.error{
+    color:red;
+    font-size: 12px;
+    margin:2px;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+.addition a{
+    text-decoration:none;
+    color: rgba(127,75,238,1);
+    font-weight: bold;
+    
+}
+
+.input-group.error input{
+    border-color: red
+}
+
+.input-group.success input{
+    border-color: green
+}
